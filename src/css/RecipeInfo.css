@@ -1,0 +1,115 @@
+#Spinner{
+    position: fixed;
+    z-index: 999;
+    height: 4em;
+    width: 4em;
+    overflow: visible;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.btn{
+    width: 60px;
+    height: 35px;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    padding-top: .255rem!important;
+}
+.btn-outline-secondary{
+    color: black!important;
+    border-color: black!important;
+}
+.btn-outline-secondary:hover{
+    color: white!important;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main h4{
+    margin-bottom: 0.5rem;
+}
+#recipe-info-hr{
+    margin-bottom: 1rem;
+    color: black;
+    background-color: black;
+    height: 1px;
+    margin-top: 0!important;
+}
+
+.recipe-push {
+    height: 80px;
+}
+
+@media (max-width: 1680px){
+    main{
+        width: 80%;
+    }
+}
+@media (max-width: 1280px){
+    main{
+        width: 90%;
+    }
+}
+@media (max-width: 1024px){
+    .recipe-img-table-wrapper{
+        flex-direction: column!important;
+    }
+    .recipe-img-table-wrapper .recipe{
+        margin-top: 0.5rem;
+    }
+    .recipe-list-content .card{
+        width: 18rem!important;
+        margin: 0.5rem!important;
+    }
+    .recipe-img-table-wrapper{
+        padding: 0.5rem!important;
+    }
+    #recipe-name{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 800px){
+    main{
+        width: 100%;
+    }
+    .recipe-img-table-wrapper .recipe{
+        width: 100%;
+        height: fit-content;
+    }
+    .recipe-img-table-wrapper img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 450px){
+    #recipe-name{
+        font-size: 1.5rem;
+    }
+    .btn{
+        width: 45px;
+        height: 30px;
+        font-size: 1rem;
+        padding: 0!important;
+    }
+}
+
+@media (max-width: 350px){
+    #recipe-name{
+        font-size: 1.4rem;
+    }
+    main{
+        font-size: 0.8rem;
+    }
+    .recipe-img-table-wrapper{
+        padding: 0!important;
+    }
+}

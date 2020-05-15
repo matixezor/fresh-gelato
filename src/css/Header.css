@@ -1,0 +1,22 @@
+.desktopHeader {
+    min-height: 3.3rem;
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    max-height: 5rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-size: 1.3rem;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.mobileHeader{
+    overflow: hidden;
+    font-weight: 700;
+}

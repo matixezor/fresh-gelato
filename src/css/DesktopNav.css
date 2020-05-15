@@ -1,0 +1,23 @@
+header ul {
+    list-style: none;
+}
+nav{
+    margin-top: 0.5rem;
+    white-space: nowrap;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    display: block;
+    color: #2B2B2B;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 10%;
+    text-decoration: none;
+}
+.nav_links li a:hover {
+    color: #666666;
+}

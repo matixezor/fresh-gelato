@@ -1,0 +1,149 @@
+#main{
+    overflow: hidden;
+    margin: auto auto -3rem;
+    width: 100%;
+}
+
+#main section {
+    margin-top: 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.centeredText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: white;
+    letter-spacing: 0.5rem;
+    white-space: nowrap;
+}
+
+.centeredText p:first-of-type{
+    font-size: 3.5rem;
+}
+
+#first img{
+    margin-bottom: 1rem;
+}
+
+#second{
+    display: flex;
+    margin-top: 4rem;
+}
+
+#second div:last-of-type{
+    background-color: white;
+    text-align: center;
+}
+
+#second  h2{
+    margin-top: 8%;
+    line-height: 1em;
+    margin-bottom: 0.3rem;
+}
+
+#second h4{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+#second p{
+    width: 50%;
+    margin: auto auto 2rem;
+    font-size: 1.3em;
+    text-align: justify;
+    word-break: break-word;
+}
+
+.push {
+    height: 50px;
+    background-color: black;
+}
+
+#mainLink{
+    color: #2B2B2B;
+    text-decoration-line: none;
+}
+
+#mainLink:hover {
+    color: #666666;
+}
+
+#textSection h4{
+    margin: auto;
+}
+
+#textSection div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textSection img{
+    vertical-align: middle;
+}
+
+
+@media(max-width: 1660px){
+    #second h2{
+        margin-top: 4%;
+        font-size: 1.8em;
+    }
+    #second p{
+        font-size: 1em;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    #textSection p{
+        width: 80%;
+    }
+    #second  h2 {
+        margin-top: 1rem;
+    }
+    .responsiveImg {
+        align-self: stretch;
+    }
+    .responsiveImg img{
+        height: 100%;
+    }
+}
+@media(max-width: 1024px){
+    .centeredText{
+        font-size: 1.8rem;
+    }
+
+    .centeredText p:first-of-type{
+        font-size: 1.5rem;
+    }
+
+    #main{
+        padding: 0;
+    }
+
+    #second{
+        flex-direction: column-reverse;
+    }
+
+    #second p{
+        width: 75%;
+    }
+
+    #second  h2{
+        line-height: 1em;
+        margin-bottom: 0.3rem;
+    }
+    .responsiveImg img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 320px) {
+    .centeredText{
+        white-space: normal;
+    }
+}
